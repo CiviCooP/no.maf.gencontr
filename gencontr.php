@@ -22,6 +22,14 @@ function gencontr_civicrm_xmlMenu(&$files) {
  * Implementation of hook_civicrm_install
  */
 function gencontr_civicrm_install() {
+    /*
+     * check if recurring extension has been installed
+     */
+    if (!defined('MAF_RECURRING_DAYS_LOOKAHEAD')) {
+        CRM_Core_Error::fatal(ts(
+            "Unable to generate pending contributions as the MAF recurring contributions extension is not installed/enabled"
+        )); 
+    }
   return _gencontr_civix_civicrm_install();
 }
 
