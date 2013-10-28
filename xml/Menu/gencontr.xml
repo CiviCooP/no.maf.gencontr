@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/gencontr</path>
+    <page_callback>CRM_Gencontr_Page_GenContr</page_callback>
+    <title>GenContr</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/genrecurr</path>
+    <page_callback>CRM_Gencontr_Page_GenRecurr</page_callback>
+    <title>GenRecurr</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
