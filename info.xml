@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <extension key="no.maf.gencontr" type="module">
   <file>gencontr</file>
-  <name>Generate Pending Contributions for Migration</name>
-  <description>One off generation of pending contributions for recurring contributions that were imported from Profundo. This is to make sure they are picked up in the export of the OCR</description>
+  <name>MAF Norway Generate Pending Contributions for Migration</name>
+  <description>Initial generation of pending contributions for recurring contributions that were imported from Profundo. This is to make sure they are picked up in the export of the OCR</description>
   <license>Academic Free License</license>
   <maintainer>
     <author>Erik Hommel (CiviCooP)</author>
