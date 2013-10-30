@@ -8,7 +8,7 @@ require_once 'CRM/Core/Page.php';
 class CRM_Gencontr_Page_GenRecurr extends CRM_Core_Page {
     function run() {
         CRM_Utils_System::setTitle(ts('Generating contributions'));
-        require_once '/home/maf/www/test/sites/civicrm_extensions/no.maf.recurring/Recurring/Form/Lookahead.php';
+        require_once 'Recurring/Form/Lookahead.php';
         
         $selectRecur = 
 "SELECT * FROM civicrm_contribution_recur WHERE contribution_status_id <> 3 AND payment_instrument_id = 13";
