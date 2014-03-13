@@ -12,4 +12,10 @@
     <title>GenRecurr</title>
     <access_arguments>access CiviCRM</access_arguments>
   </item>
+  <item>
+    <path>civicrm/setgirobank</path>
+    <page_callback>CRM_Gencontr_Page_SetGirobank</page_callback>
+    <title>SetGirobank</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
 </menu>
